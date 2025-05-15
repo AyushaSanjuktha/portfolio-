@@ -4,40 +4,48 @@
   <meta charset="UTF-8">
   <title>Ayusha's Portfolio</title>
   <link rel="stylesheet" href="style.css">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+
+  <!-- AOS Animation CSS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
-  <header>
-    <h1>Ayusha Sanjuktha</h1>
-    <p>B.Tech CSE Student at MVGR College</p>
-    <img src="profilepic.jpg" alt="My Photo" class="profile-img">
 
+  <header data-aos="fade-down">
+    <img src="profilepic.jpg" alt="My Photo" class="profile-img">
+    <div class="intro-text">
+      <h1>Ayusha Sanjuktha</h1>
+      <p>B.Tech CSE Student at MVGR College</p>
+    </div>
   </header>
 
-  <section id="about">
+  <section id="about" data-aos="fade-up">
     <h2>About Me</h2>
     <p>I am a second-year Computer Science Engineering student from Vizianagaram. I'm passionate about web development, Python programming, and improving my English skills.</p>
   </section>
 
-  <section id="skills">
+  <section id="skills" data-aos="zoom-in">
     <h2>Skills</h2>
     <ul>
       <li>Python</li>
       <li>HTML & CSS</li>
       <li>SQL Basics</li>
       <li>Git & GitHub</li>
-      <li>c & c++</li>
+      <li>C & C++</li>
       <li>Teamwork & Leadership</li>
     </ul>
   </section>
 
-  <section id="education">
+  <section id="education" data-aos="fade-left">
     <h2>Education</h2>
     <p><strong>MVGR College of Engineering</strong><br>
     B.Tech in Computer Science and Engineering<br>
     2023 – Present</p>
   </section>
 
-  <section id="projects">
+  <section id="projects" data-aos="flip-left">
     <h2>Projects</h2>
     <ul>
       <li><strong>Portfolio Website</strong> – A personal website to showcase my journey.</li>
@@ -45,15 +53,24 @@
     </ul>
   </section>
 
-  <section id="contact">
+  <section id="contact" data-aos="fade-up">
     <h2>Contact</h2>
-    <p>Email: ayushasanjuktha@gamil.com</p>
-    <p>GitHub: <a href="https://github.com/AyushaSanjuktha" target="_blank">github.com/ayusha</a></p>
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/ayusha-sanjuktha-chekka-0b7a982bb/" target="_blank">linkedin.com/in/ayusha</a></p>
+    <p>Email: ayushasanjuktha@gmail.com</p>
+    <p>GitHub: <a href="https://github.com/AyushaSanjuktha" target="_blank">github.com/AyushaSanjuktha</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/ayusha-sanjuktha-chekka-0b7a982bb/" target="_blank">linkedin.com/in/ayusha-sanjuktha</a></p>
   </section>
 
-  <footer>
+  <footer data-aos="fade-up">
     <p>© 2025 Ayusha Sanjuktha</p>
   </footer>
+
+  <!-- AOS Script -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+      once: true
+    });
+  </script>
 </body>
 </html>
