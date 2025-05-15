@@ -7,7 +7,7 @@ This project showcases my skills, education, and projects as a B.Tech Computer S
 
 - A simple, responsive portfolio website built with **HTML** and **CSS**.
 - Includes sections for About Me, Skills, Education, Projects, and Contact.
-- Hosted live on GitHub Pages: [https://ayushasanjuktha.github.io/portfolio-/](https://ayushasanjuktha.github.io/portfolio-/)
+- Hosted live on GitHub Pages: [https://ayushasanjuktha.github.io/portfolio-project-for-micro-it/](https://ayushasanjuktha.github.io/portfolio-project-for-micro-it/)
 
 ## Features
 
@@ -18,7 +18,7 @@ This project showcases my skills, education, and projects as a B.Tech Computer S
 ## How to View
 
 You can visit the live site here:  
-[https://ayushasanjuktha.github.io/portfolio-/](https://ayushasanjuktha.github.io/portfolio-/)
+[https://ayushasanjuktha.github.io/portfolio-project-for-micro-it/](https://ayushasanjuktha.github.io/portfolio-project-for-micro-it/)
 
 ## Contact
 
